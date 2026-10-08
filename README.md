@@ -7,8 +7,13 @@ aplicativo desktop. O código-fonte fica em um repositório privado.
 
 - **`update.json`** — manifesto lido pelo aplicativo toda vez que ele abre.
   Informa a versão mais recente, a URL do `.exe` e o SHA-256 para verificação.
-- **Releases** — cada release traz o `PontoRocha.exe`, o executável completo
-  (build `--onefile`).
+- **Releases** — cada release traz dois arquivos:
+  - `PontoRocha.exe` — o executável (build `--onefile`), usado pela
+    atualização automática (substitui só este arquivo).
+  - `Instalador-PontoRocha.exe` — instalador Inno Setup, pra primeira
+    instalação numa máquina nova (cria atalhos no Menu Iniciar/Área de
+    Trabalho, com o ícone do sistema). Depois de instalado, o próprio app se
+    mantém atualizado sozinho — não precisa reinstalar a cada versão nova.
 
 ## Como o cliente atualiza
 

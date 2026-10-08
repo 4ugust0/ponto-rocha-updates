@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "download_url": "https://github.com/4ugust0/ponto-rocha-updates/releases/download/v1.0.0/PontoRocha.exe",
-  "sha256": "bb6e2acf7e1a7326cde977eceb3820c43dd627f573bbe75676535de63cc5bb63",
-  "notes": "Versão inicial com atualização automática.",
+  "sha256": "d71c49efd8d46aa457839ba02e23433d5e8646b8df5e717bb06fdacdc0feebcc",
+  "notes": "Versão inicial com atualização automática e ícone do sistema.",
   "mandatory": false
 }
